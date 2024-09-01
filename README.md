@@ -1,3 +1,52 @@
+2. Check for the gltfjsx Command in the Yarn Global Bin
+Verify that gltfjsx is indeed installed in the global Yarn bin directory:
+
+Navigate to the Yarn global bin directory:
+bash
+Copy code
+cd C:\Users\hp\AppData\Local\Yarn\bin
+List the contents to see if gltfjsx is there:
+bash
+Copy code
+dir
+or
+bash
+Copy code
+ls
+You should see a gltfjsx executable or script in this directory.
+3. Try Running gltfjsx with an Explicit Path
+If gltfjsx is there but still not recognized globally, try running it directly with an explicit path:
+
+bash
+Copy code
+C:\Users\hp\AppData\Local\Yarn\bin\gltfjsx src/models/chair.gltf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
