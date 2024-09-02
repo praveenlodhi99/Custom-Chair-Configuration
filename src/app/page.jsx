@@ -6,10 +6,10 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='h-[100vh] w-[100vw] bg-orange-300'>
+    <div className='h-[100vh] w-[100vw]'>
       <Canvas className='h-full w-full '>
-        {/* <OrbitControls /> */}
-        <color attach="background" args={["#213547"]} />
+        <color attach="background" args={["#E2EAF4"]} />
+        <fog attach="fog" args={["#E2EAF4", 10, 20]} />
         <ambientLight />
         <Experience />
       </Canvas>
